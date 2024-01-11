@@ -26,10 +26,12 @@ public final class Main extends JavaPlugin implements Listener {
 
     private Integer count = 0;
 
+    //GitHubコミット練習コメント
+
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
-        
+
     }
 
     /**
